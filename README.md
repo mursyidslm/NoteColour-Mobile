@@ -1,2 +1,12 @@
 # NoteColour-Mobile
 Script dan Latihan Automation untuk mobile app
+Install WDIO
+npm init wdio .
+npm install appium --save-dev
+n
+
+
+
+kalo mau running semua yg ada di specs jalanin : npx wdio 
+kalo mau running salah satu file jalanin : npm run [nama file] contoh : npm run test:apk2
+untuk jalanin test tertentu, pastiin udah di set di package.json dulu, contoh : "test:apk2": "wdio run ./wdio.conf.js --spec test/specs/sampleapk2.js"
